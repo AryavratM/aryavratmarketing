@@ -9,8 +9,13 @@ function App() {
   return (
     <>
       <div>
-        <h1>Website under construction...visit soon</h1>
+        <h1>We're Building Something Amazing!</h1>
       </div>
+      <p>
+        Our website is currently under construction as we work to bring you an
+        exceptional online experience. Please check back soon for updates. Thank
+        you for your patience and support!
+      </p>
     </>
   );
 }
