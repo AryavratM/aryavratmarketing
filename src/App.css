@@ -1,7 +1,6 @@
 #root {
-  max-width: 1280px;
+  max-width: 1480px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -39,4 +38,44 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.logoContainer {
+  width: "100%";
+  background-color: rd;
+}
+
+.mainTitle {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .mainTitle {
+    font-size: 0.8rem;
+  }
+
+  p {
+    font-size: 10px;
+  }
+  a {
+    font-size: 10px;
+  }
+}
+
+.links a {
+  color: #ad2a30;
+}
+
+.linksContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
