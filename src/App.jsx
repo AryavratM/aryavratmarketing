@@ -28,7 +28,7 @@ function App() {
         <img src="/logo.png" style={{ width: "25%" }} />
         <img src="/logoText.png" style={{ width: "25%" }} />
       </div>
-      <p style={{ fontFamily: "Poppins" }}>
+      <p style={{ fontFamily: "Poppins", color: "white" }}>
         Goa's No.1
         <span
           style={{ color: "#ad2a30", fontWeight: 800, fontFamily: "Poppins" }}>
