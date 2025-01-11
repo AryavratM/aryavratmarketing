@@ -1,5 +1,8 @@
 import { IoMdMail } from "react-icons/io";
+import { IoIosCall } from "react-icons/io";
+
 import { AiFillInstagram } from "react-icons/ai";
+import { TbBrandWhatsappFilled } from "react-icons/tb";
 
 import "./App.css";
 import AOS from "aos";
@@ -27,6 +30,8 @@ function App() {
         }}>
         <img src="/logo.png" style={{ width: "25%" }} />
         <img src="/logoText.png" style={{ width: "25%" }} />
+        <header className="mainHeading">Visibility Matters!</header>
+        
       </div>
       <p style={{ fontFamily: "Poppins", color: "white" }}>
         Goa's No.1
@@ -73,7 +78,17 @@ function App() {
             @aryavrat.marketing
           </a>
         </div>
+        <div className="headingDiv">
+          <IoIosCall size={35} />
+          <a href="tel:9209016102">
+            9209016102
+          </a>
+        </div>
       </div>
+
+      <a href="https://linktr.ee/aryavrat.marketing" target="_blank">
+        <img src="/Aryavrat_Marketing_qr.png" alt="" className="qrcode" />
+      </a>
     </>
   );
 }
