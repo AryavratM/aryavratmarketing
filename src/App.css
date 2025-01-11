@@ -119,3 +119,13 @@
     font-size: 15px;
     }
   }
+
+  @media screen and (max-height: 900px) {
+   
+  
+    .qrcode{
+      position: unset ;
+     margin-top: 20px;
+    }
+
+  }
